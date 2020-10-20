@@ -404,7 +404,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #981a8b;
+  background: #000;
   color: #fff;
   display: inline-block;
   padding: 14px 38px;
@@ -429,8 +429,7 @@ h3 {
 /* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   border: 1px solid #981a8b;
-  color: #981a8b !important;
-  background: transparent;
+  background: #981a8b;
 }
 
 /* line 53, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
@@ -1515,9 +1514,10 @@ h3{
 @media (max-width: 767px) {
   /* line 74, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
   .slider_area .single_slider::before {
-    width: 314px;
-    height: 300px;
+      width: 271px;
+    height: 271px;
     content: '';
+    left: 14%!important;
     background-size: cover;
   }
 }
@@ -2516,10 +2516,19 @@ h3{
   color: #981a8b;
 }
 
+.btnp{
+  background: black;
+}
+
+.btnp:hover{
+  background: black;
+  color:#981a8b!important;
+}
+
 /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 30px;
-  background: #001D38;
+  padding-bottom: 20px;
+  background: #000;
 }
 
 /* line 41, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
@@ -3037,7 +3046,7 @@ h3{
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
 .discuss_projects {
-  background: #001D38;
+  background: #981a8b;
   padding-top: 50px;
     padding-bottom: 50px;
  
@@ -3122,7 +3131,7 @@ h3{
 
 /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_service.scss */
 .service_area .single_service h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #2C2C2C;
   margin-top: 24px;
