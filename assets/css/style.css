@@ -2568,6 +2568,9 @@ h3{
     text-align: left;
     margin-top: 30px;
   }
+  .header__main{
+    padding: 1rem .5rem!important;
+  }
 }
 
 /* line 67, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
