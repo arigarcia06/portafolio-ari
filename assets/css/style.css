@@ -342,7 +342,7 @@ h3 {
 /* line 272, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #e66761;
+  background: #3f51b5;
   border: 1px solid transparent;
 }
 
@@ -376,19 +376,19 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #e66761;
+  border: 1px solid #3f51b5;
   letter-spacing: 3px;
   text-align: center;
-  color: #e66761 !important;
+  color: #3f51b5 !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #e66761;
+  background: #3f51b5;
   color: #fff !important;
-  border: 1px solid #e66761;
+  border: 1px solid #3f51b5;
 }
 
 /* line 22, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
@@ -404,7 +404,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #e66761;
+  background: #3f51b5;
   color: #fff;
   display: inline-block;
   padding: 14px 38px;
@@ -445,7 +445,7 @@ h3 {
 /* line 60, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #e66761;
+  background: #3f51b5;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -469,7 +469,7 @@ h3 {
 
 /* line 79, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #e66761;
+  background: #3f51b5;
   color: #fff !important;
 }
 
@@ -531,14 +531,14 @@ h3 {
 
 /* line 125, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3-green-2 {
-  color: #e66761 !important;
+  color: #3f51b5 !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #e66761;
+  border: 1px solid #3f51b5;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -554,7 +554,7 @@ h3 {
 
 /* line 141, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .boxed-btn3-green-2:hover {
-  background: #e66761;
+  background: #3f51b5;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -631,8 +631,8 @@ h3 {
 .line_btn {
   display: inline-block;
   font-size: 15px;
-  color: #e66761;
-  border: 1px solid #e66761;
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
   text-transform: capitalize;
   padding: 13px 34px;
   font-weight: 600;
@@ -640,7 +640,7 @@ h3 {
 
 /* line 205, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
 .line_btn:hover {
-  background: #e66761;
+  background: #3f51b5;
   color: #fff;
 }
 
@@ -663,7 +663,7 @@ h3 {
   position: absolute;
   height: 60px;
   width: 1px;
-  background: #f73f36;
+  background: #2f4b94;
   content: '';
   left: 50%;
   bottom: 100%;
@@ -674,7 +674,7 @@ h3 {
   font-size: 50px;
   line-height: 62px;
   font-weight: 700;
-  color: #001D38;
+  color: #2e66ad;
   position: relative;
   z-index: 0;
   padding-bottom: 15px;
@@ -686,6 +686,7 @@ h3 {
     font-size: 30px;
     line-height: 36px;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1367,10 +1368,23 @@ h3 {
   position: relative;
   z-index: 0;
   height: 570px;
-  background-size: cover;
+  background-size: cover!important;
   background-repeat: no-repeat;
-  background-position: center center;
-    background: rgb(244 67 54 / 79%);}
+  background: url(../img/bg.jpg);
+  background-attachment: fixed;
+}
+
+  .mask-banner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 29 56 / 70%);
+    display: flex;
+    align-items: center;
+
+  }
 
 /* line 16, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .shap_pattern {
@@ -1419,9 +1433,15 @@ h3 {
 }
 div#abilities {
     padding-top: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 h3{
-  font-size: 30px!important;
+  font-size: 25px!important;
+}
+
+span{
+  font-family: "Muli", sans-serif;
 }
 .slider_area .single_slider::before {
     position: absolute;
@@ -1451,16 +1471,17 @@ h3{
   position: relative;
   z-index: 2;
   overflow: hidden;
+  background: #2f4b94;
 }
 
 /* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .social_links li a::before {
-  background: #e66761;
+  background: #3f51b5;
   /* Old browsers */
   background: black;
 
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e66761', endColorstr='#d465ef',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f51b5', endColorstr='#d465ef',GradientType=0 );
   /* IE6-9 */
   position: absolute;
   left: 0;
@@ -1497,15 +1518,16 @@ h3{
 /* line 74, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider::before {
   position: absolute;
-  top: 20%;
-  left: 0%;
-  background-image: url('../img/banner.png');
+  top: -2%;
+right: 0%;
+  background-image: url('../img/ari.png');
   width: 724px;
   height: 767px;
   content: '';
   background-repeat: no-repeat;
     border-radius: 15%;
         filter: drop-shadow(9px 5px 4px rgba(0, 0, 0, 0.7));
+        z-index: 9;
 }
 .shap_pattern.d-none.d-lg-block img{
   display: none;
@@ -1518,6 +1540,7 @@ h3{
     content: '';
     left: 14%!important;
     background-size: cover;
+    top: 45%!important;
   }
 }
 
@@ -1528,7 +1551,13 @@ h3{
     height: 370px;
     content: '';
     background-size: cover;
+    top: 29%;
+    left: 39%;
   }
+  .nav-item a {
+
+    font-size: 15px;
+}
 }
 
 /* line 96, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
@@ -1673,7 +1702,7 @@ h3{
 
 /* line 180, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   color: #FFFFFF;
   position: relative;
@@ -2085,7 +2114,7 @@ h3{
 
 /* line 15, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 span {
-  color: #e66761;
+  color: #3f51b5;
   font-size: 50px;
   font-weight: 700;
 }
@@ -2113,7 +2142,7 @@ h3{
 
 /* line 35, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter:hover {
-  border: 1px solid #e66761;
+  border: 1px solid #3f51b5;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
@@ -2161,7 +2190,7 @@ h3{
     }
 
     .nav-item a {
-    color: #e66761!important;
+    color: #3f51b5!important;
   }
 }
 
@@ -2210,8 +2239,8 @@ h3{
 
 /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me .about_img .my_Pic img {
-  width: 100%;
-  filter: drop-shadow(9px 5px 4px #e66761);
+  width: 70%;
+  filter: drop-shadow(9px 5px 4px #3f51b5);
 }
 
 /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
@@ -2510,7 +2539,7 @@ h3{
 
 /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .footer_top .menu_links ul li a:hover {
-  color: #e66761;
+  color: #3f51b5;
 }
 
 .btnp{
@@ -2519,7 +2548,7 @@ h3{
 
 .btnp:hover{
   background: black;
-  color:#e66761!important;
+  color:#3f51b5!important;
 }
 
 /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
@@ -2597,8 +2626,8 @@ h3{
 /* line 84, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #fff !important;
-  background: #e66761;
-  border: 1px solid #e66761;
+  background: #3f51b5;
+  border: 1px solid #3f51b5;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
@@ -3046,9 +3075,14 @@ h3{
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
 .discuss_projects {
-  background: #e66761;
+  background:url('../img/footer.jpeg');
   padding-top: 50px;
     padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    position: relative;
+    height: 50vh;
  
 }
 
@@ -3078,6 +3112,7 @@ h3{
   /* line 11, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
   .discuss_projects .project_text h3 {
     font-size: 38px;
+    margin-bottom: 10%;
   }
 }
 
@@ -3120,6 +3155,7 @@ h3{
   transition: 0.3s;
   margin-bottom: 30px;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3156,7 +3192,7 @@ h3{
 
 /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_service.scss */
 .service_area .single_service:hover {
-  border: 1px solid #e66761;
+  border: 1px solid #3f51b5;
 }
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
@@ -3187,7 +3223,7 @@ h3{
 .video_area .video_wrap .thumb .video_icon a {
   width: 90px;
   height: 90px;
-  background: #e66761;
+  background: #3f51b5;
   display: inline-block;
   text-align: center;
   line-height: 90px;
@@ -3271,7 +3307,7 @@ h3{
   height: 100%;
   left: 0;
   top: 0;
-  background: #e66761;
+  background: linear-gradient(90deg, rgba(63,81,181,1) 0%, rgb(35 33 33) 100%, rgba(63,81,181,1) 100%);
   content: '';
 }
 
@@ -5205,7 +5241,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #e66761 0%, #e66761 99%);
+  background: -webkit-linear-gradient(131deg, #3f51b5 0%, #3f51b5 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5716,7 +5752,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #e66761;
+  color: #3f51b5;
 }
 
 /* line 549, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
@@ -5732,6 +5768,18 @@ h6 {
     font-size: 24px;
     margin-bottom: 15px;
   }
+  .about_me .about_img .my_Pic img {
+    width: 100%!important;
+    filter: drop-shadow(9px 5px 4px #3f51b5);
+}
+}
+
+@media (max-width: 767px) {
+
+  .about_me .about_img .my_Pic img {
+    width: 100%!important;
+    filter: drop-shadow(9px 5px 4px #3f51b5);
+}
 }
 
 /* line 563, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
@@ -5784,7 +5832,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #e66761;
+  background-color: #3f51b5;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -6012,7 +6060,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #e66761;
+  background: #3f51b5;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -6260,7 +6308,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #e66761;
+  color: #3f51b5;
 }
 
 /* line 1213, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
@@ -6689,7 +6737,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #e66761;
+  color: #3f51b5;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6716,7 +6764,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #e66761;
+  background-color: #3f51b5;
   border-radius: 50%;
 }
 
@@ -7012,7 +7060,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background:#e66761 !important;
+  background:#3f51b5 !important;
 }
 
 .card-port{
@@ -7040,11 +7088,11 @@ html {
           filter: hue-rotate(45deg)
 }
 .color_pattern.d-none.d-lg-block{
-  filter: sepia(1);
+  filter: grayscale(1);
 }
 
 .fixed-me{
-  background-color: #e66761;
+  background-color: #292929;
   box-shadow: 0 1px 5px 0px rgb(0 0 0 / 20%);
 }
 
@@ -7104,7 +7152,7 @@ html {
         left: 0;
 
     height: auto;
-    fill: #e66761; }
+    fill: #3f51b5; }
   .responsive-menu-btn.--is-open svg.close {
     visibility: visible;
     animation: XrotateScaleFadeIn 0.37s ease forwards;
@@ -7216,7 +7264,7 @@ html {
     align-items: center;
     color: #fff;
     font-weight: bold;
-    background:rgb(230 103 97 / 61%)!important;
+    background:rgb(63 81 181 / 50%)!important;
     transition: .5s;
 }
 
@@ -7226,4 +7274,257 @@ html {
     cursor: pointer;
     width: 23%;
 
+}a {
+  text-decoration: none;
+}
+
+.social-media-flex {
+  display: flex;
+}
+.social-media-flex-justify-content {
+  justify-content: center;
+}
+.social-media-flex-align-items {
+  align-items: center;
+}
+
+.social-media-grid {
+  display: grid;
+}
+.social-media-grid-gap {
+  grid-gap: 0.5em;
+}
+
+.main-container-social {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+.container-social {
+  grid-template-rows: repeat(2, 1.5em);
+  border-radius: 0.25em;
+  padding: 0.5em;
+  background-color: #262626;
+  box-shadow: 0 0 0.25em #262626;
+}
+
+.social-links {
+  grid-template-columns: repeat(3, 2em);
+  grid-gap: 0.5em;
+  z-index: 100;
+}
+
+.social-link {
+  font-size: 1.5rem;
+  color: #bfbfbf;
+  transition: 0.3s all ease;
+  transition-timing-function: cubic-bezier(0, -0.5, 0, 0.5);
+}
+.social-link:hover {
+  color: #f2f2f2;
+  transform: translateY(-0.1em);
+  transition-timing-function: cubic-bezier(0.5, -1.5, 0.5, 1.5);
+}
+
+.made {
+  display: block;
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.container__progressbars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.progressbar {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 1em;
+  transform: rotate(-90deg);
+}
+
+.progressbar__svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progressbar__svg-circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke: white;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+.shadow-html {
+  filter: drop-shadow(0 0 5px #ff6633);
+}
+.shadow-css {
+  filter: drop-shadow(0 0 5px #33bbff);
+}
+.shadow-scss {
+  filter: drop-shadow(0 0 5px #ff33ff);
+}
+.shadow-js {
+  filter: drop-shadow(0 0 5px #4caf50 );
+}
+
+
+.circle-html {
+  -webkit-animation: anim_circle-html 1s ease-in-out forwards;
+          animation: anim_circle-html 1s ease-in-out forwards;
+}
+.circle-css {
+  -webkit-animation: anim_circle-css 1s ease-in-out forwards;
+          animation: anim_circle-css 1s ease-in-out forwards;
+}
+.circle-scss {
+  -webkit-animation: anim_circle-scss 1s ease-in-out forwards;
+          animation: anim_circle-scss 1s ease-in-out forwards;
+}
+.circle-js {
+  -webkit-animation: anim_circle-js 1s ease-in-out forwards;
+          animation: anim_circle-js 1s ease-in-out forwards;
+}
+.circle-ts {
+  -webkit-animation: anim_circle-ts 1s ease-in-out forwards;
+          animation: anim_circle-ts 1s ease-in-out forwards;
+}
+.circle-node {
+  -webkit-animation: anim_circle-node 1s ease-in-out forwards;
+          animation: anim_circle-node 1s ease-in-out forwards;
+}
+.circle-react {
+  -webkit-animation: anim_circle-react 1s ease-in-out forwards;
+          animation: anim_circle-react 1s ease-in-out forwards;
+}
+.circle-angular {
+  -webkit-animation: anim_circle-angular 1s ease-in-out forwards;
+          animation: anim_circle-angular 1s ease-in-out forwards;
+}
+.circle-vue {
+  -webkit-animation: anim_circle-vue 1s ease-in-out forwards;
+          animation: anim_circle-vue 1s ease-in-out forwards;
+}
+
+.progressbar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.25em 0.5em;
+  color:#9e9e9e;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@-webkit-keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 22;
+  }
+}
+
+@keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 22;
+  }
+}
+@-webkit-keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+@keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+@-webkit-keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+@keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 132;
+  }
+}
+@-webkit-keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+@keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+@-webkit-keyframes anim_circle-ts {
+  to {
+    stroke-dashoffset: 198;
+  }
+}
+@keyframes anim_circle-ts {
+  to {
+    stroke-dashoffset: 198;
+  }
+}
+@-webkit-keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 308;
+  }
+}
+@keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 308;
+  }
+}
+@-webkit-keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 387.2;
+  }
+}
+@keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 387.2;
+  }
+}
+@-webkit-keyframes anim_circle-angular {
+  to {
+    stroke-dashoffset: 418;
+  }
+}
+@keyframes anim_circle-angular {
+  to {
+    stroke-dashoffset: 418;
+  }
+}
+@-webkit-keyframes anim_circle-vue {
+  to {
+    stroke-dashoffset: 431.2;
+  }
+}
+@keyframes anim_circle-vue {
+  to {
+    stroke-dashoffset: 431.2;
+  }
 }
