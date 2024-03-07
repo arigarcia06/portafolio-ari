@@ -672,7 +672,7 @@ h3 {
 /* line 24, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 50px;
-  line-height: 62px;
+  line-height: 35px;
   font-weight: 700;
   color: #2e66ad;
   position: relative;
@@ -1370,7 +1370,7 @@ h3 {
   height: 100vh;
   background-size: cover!important;
   background-repeat: no-repeat;
-  background: url(../img/bg.jpg);
+  background: url(../img/banner-p.png);
   background-attachment: fixed;
 }
 
@@ -1380,7 +1380,7 @@ h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(0 29 56 / 70%);
+    background-color:rgb(0 29 56 / 3%);
     display: flex;
     align-items: center;
 
@@ -1396,7 +1396,7 @@ h3 {
 /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .social_links {
   position: absolute;
-  right: 100px;
+  right: 15px;
   z-index: 999;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1448,7 +1448,6 @@ span{
 /* line 31, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_area .single_slider .social_links li {
   display: block;
-  margin-bottom: 15px;
 }
 
 /* line 34, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
@@ -1460,7 +1459,7 @@ span{
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
   font-size: 15px;
@@ -1511,20 +1510,7 @@ span{
   margin-bottom: 0;
 }
 
-/* line 74, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
-.slider_area .single_slider::before {
-  position: absolute;
-  top: 0%;
-right: 0%;
-  background-image: url('../img/ari.png');
-  width: 724px;
-  height: 767px;
-  content: '';
-  background-repeat: no-repeat;
-    border-radius: 15%;
-     filter: drop-shadow(9px 5px 4px rgba(0, 0, 0, 0.7));
-    z-index: 9;
-}
+
 .shap_pattern.d-none.d-lg-block img{
   display: none;
 }
@@ -2590,7 +2576,7 @@ right: 0%;
     margin-top: 30px;
   }
   .header__main{
-  padding:3.5rem .7rem!important;
+  padding:1.5rem .7rem!important;
   }
 }
 
@@ -7070,7 +7056,7 @@ html {
 
 .header__main {
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   align-items: center;
   height: 80px;
   position: fixed;
@@ -7088,7 +7074,7 @@ html {
 }
 
 .fixed-me{
-  background-color: #292929;
+  background-color: #2f4b94;
   box-shadow: 0 1px 5px 0px rgb(0 0 0 / 20%);
 }
 
@@ -7190,7 +7176,7 @@ html {
     border-right: none;
     position: static;
     margin-left: auto;
-    justify-content: flex-end;
+    justify-content: flex-start;
     height: auto;
     transform: translate(0, 0);
         align-items: center; }
@@ -7305,7 +7291,7 @@ html {
   box-shadow: 0 0 0.25em #262626;
 }
 div#abilities {
-  background: rgb(221 221 221 / 38%);
+  background: rgb(221 221 221 / 14%);
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -7527,4 +7513,49 @@ border-color:#ffc107;
 }
 @media only screen and (max-width: 990px){
   .progress{ margin-bottom: 20px; }
+}
+
+
+.entrada {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 25px;
+  color: #2f4b94;
+  width: 250px;
+  border-right: 2px solid rgba(0, 0, 0, 0.87);
+  animation: animacionIntro 2.8s steps(23, end), animacionBar 1s step-end infinite;
+  background: #fff;
+  padding: 10px 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+@keyframes animacionIntro {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 250px;
+  }
+}
+
+@keyframes animacionBar {
+  0%,
+  100% {
+    border-color: #0181F5;
+  }
+  50% {
+    border-color:#0181F5;
+  }
+}
+
+.slider_text.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header.header__main.navbar-me.back.container-fluid.fixed-me .nav__menu {
+  justify-content: flex-end;
 }
